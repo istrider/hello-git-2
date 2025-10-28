@@ -44,6 +44,10 @@ Feel free to contribute to this repository to practice Git workflows:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Author
+
+Repository owner: `istrider`
+
 ## Last Updated
 
 October 27, 2025
