@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Page</title>
+</head>
+<body>
+    <h1>Welcome to the Sample HTML Page</h1>
+    <p>This is a simple HTML document structure.</p>
+    <p>Current Time is <span id="current-time"></span></p>
+    <script>
+      function updateTime() 
+      {
+        document.getElementById('current-time').textContent = new Date().toLocaleString();
+      }
+      updateTime();
+      setInterval(updateTime, 1000);
+    </script>
+</body>
+</html>
